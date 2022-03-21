@@ -14,3 +14,5 @@
 | Column                   | Type          | Options                        |
 | ------------------------ | ------------- | ------------------------------ |
 | comment                  | text          | null: false                    |
+## Association
+-- belongs_to:users
