@@ -1,20 +1,19 @@
 .top-side-bar {
   background-color: #e2faef;
   width: 410px;
-  height: 150px;
+  height: 100px;
 }
 .top-side-bar-font{
   font-size: 20px;
   text-align: center;
   font-family: monospace;
-  padding:30px 0;
-  
+  padding: 10px 0;
 }
 .title {
   background-color: #8ae2a7;
   width: calc(100vw - 400px);
-  height: 150px;
-  font-size: 100px;
+  height: 100px;
+  font-size: 70px;
   text-align: center;
   font-family: monospace;
 }
@@ -137,4 +136,19 @@ a.btn-flat:hover:before {
 a.btn-flat:hover:after {
   -webkit-transform: translateX(-50%) translateY(0);
   transform: translateX(-50%) translateY(0);
+}
+
+.main-images{
+  width: 700px;
+  height: 900px;
+  border-radius: 300px;
+  padding: 50px 50px;
+}
+
+.main-list{
+  overflow-x: auto;
+  white-space: nowrap;
+  display: inline-block;
+  scroll-snap-type: mandatory;
+  max-width: 1480px;
 }
