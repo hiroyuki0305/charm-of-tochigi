@@ -1,0 +1,11 @@
+<div class="top-side-bar-font">
+  <% if user_signed_in? %>
+    <%= " よく来たっぺ、#{current_user.name}さん" %>
+    <p>
+    <%= link_to "ログアウト", destroy_user_session_path %>
+  <% else %>
+    <%= link_to 'ログイン', new_user_session_path, class: "login" %>
+    <p>
+    <%= link_to '新規登録',  new_user_registration_path, class: "login" %>
+  <% end %>
+</div>
